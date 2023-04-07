@@ -23,7 +23,9 @@ function Sidebar() {
   const [moreActive, setMoreActive] = React.useState(false);
   return (
     <div className="sidebar">
-      <TwitterIcon className="twitter-icon" />
+        <div class="twitter-icon">
+            <img src="" alt="Logo" />
+        </div>
       <Link to="/home" style={{ textDecoration: "none" }}>
         <SidebarItem
           text="Home"
@@ -83,7 +85,7 @@ function Sidebar() {
       </div>
       <div className="tweetButton">
         <SetTweetIcon className="setTweetIcon" />
-        <span>Tweet</span>
+        <span>New Post</span>
       </div>
       <div className="profileCard">
         <div className="profileCardImage">
@@ -91,10 +93,10 @@ function Sidebar() {
         </div>
         <div className="profileCardNameCol">
           <div className="profileCardNameColName">
-            <span>Mücahit Şahin</span>
+            <span>Test User</span>
           </div>
           <div className="profileCardNameColuserName">
-            <span>@Mucahitsahin6</span>
+            <span>@testuser1</span>
           </div>
         </div>
         <div className="profileCardIcon">

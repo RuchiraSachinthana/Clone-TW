@@ -31,8 +31,8 @@ const DrawerBar = ({ active }) => {
             <Avatar src="https://avatars.githubusercontent.com/u/38807255?s=460&u=deb087d587be7f6a4000e4e710ec4d1daa6fde84&v=4" />
             <AddIcon />
           </div>
-          <span>Mücahit Şahin</span>
-          <span>@mucahitsahin6</span>
+          <span>Test User</span>
+          <span>@Test User</span>
           <div>
             <span>
               <span>167</span>

@@ -14,8 +14,8 @@ function TweetBox() {
     id: Date.now(),
     userimage:
       "https://avatars2.githubusercontent.com/u/38807255?s=460&u=deb087d587be7f6a4000e4e710ec4d1daa6fde84&v=4",
-    username: "mucahitsah",
-    displayName: "Mücahit Şahin",
+    username: "TestUser",
+    displayName: "Test User",
     text: "",
     shareImage: "",
     date: Date.now(),
@@ -55,7 +55,7 @@ function TweetBox() {
             <EmojiIcon className="tweetboxOptionIcon" width={22} height={22} />
             <PlanIcon className="tweetboxOptionIcon" width={22} height={22} />
             <button type="submit" className="tweetbox-button">
-              Tweet
+             Post
             </button>
           </div>
         </div>

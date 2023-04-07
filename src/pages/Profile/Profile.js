@@ -33,7 +33,7 @@ const Profile = () => {
           </div>
           <div>
             <span>Mücahit Şahin</span>
-            <span>12 Tweets</span>
+            <span>12 Posts</span>
           </div>
         </div>
         <div className="profile">
@@ -47,12 +47,12 @@ const Profile = () => {
             </div>
           </div>
           <div className="profileBiography">
-            <span>Mücahit Şahin</span>
-            <span>@Mucahitsahin6</span>
-            <span>Junior Software Developer</span>
+            <span>Test User</span>
+            <span>@testuser1</span>
+            <span>Software Developer</span>
             <span>
               <ScheduleIcon />
-              Joined December 2011
+              Joined April 2023
             </span>
           </div>
           <div>
@@ -70,13 +70,13 @@ const Profile = () => {
               className={category === 1 && "profileCategoryActive"}
               onClick={() => setCategory(1)}
             >
-              <span>Tweets</span>
+              <span>Posts</span>
             </div>
             <div
               className={category === 2 && "profileCategoryActive"}
               onClick={() => setCategory(2)}
             >
-              <span>Tweets & replies</span>
+              <span>Posts & replies</span>
             </div>
             <div
               className={category === 3 && "profileCategoryActive"}

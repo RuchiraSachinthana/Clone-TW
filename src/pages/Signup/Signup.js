@@ -29,7 +29,7 @@ function Signup() {
           </span>
         </div>
         <Link to="/home" className="signupBtn">
-          <span className="signupText">Kaydol</span>
+          <span className="signupText">Sign Up</span>
         </Link>
       </div>
     </div>

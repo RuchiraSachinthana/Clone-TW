@@ -20,11 +20,11 @@ const ProfileCard = ({ active }) => {
         </div>
       </div>
       <div>
-        <span>Mücahit Şahin</span>
+        <span>Test User</span>
         <VerifiedIcon />
       </div>
       <div>
-        <span>@mucahitsahin6</span>
+        <span>@testuser1</span>
       </div>
       <div>
         <span>Junior Software Developer</span>

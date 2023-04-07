@@ -3,12 +3,12 @@ const users = [
     username: "mucahitsahin6",
     userimage:
       "https://avatars2.githubusercontent.com/u/38807255?s=460&u=deb087d587be7f6a4000e4e710ec4d1daa6fde84&v=4",
-    displayName: "Mücahit Şahin",
+    displayName: "Test User",
     biograpfy: "Junior Software Developer",
     followingCount: 158,
     followersCount: 250,
-    joinYear: 2011,
-    joinMonth: "December",
+    joinYear: 2023,
+    joinMonth: "April",
   },
   {
     username: "cnecati",
@@ -18,7 +18,7 @@ const users = [
     biograpfy: "Türk Dili ve Edebiyatı",
     followingCount: 18,
     followersCount: 20,
-    joinYear: 2017,
+    joinYear: 2022,
     joinMonth: "May",
   },
   {
@@ -28,7 +28,7 @@ const users = [
     biograpfy: "Galatasaray",
     followingCount: 558,
     followersCount: 250,
-    joinYear: 2012,
+    joinYear: 2023,
     joinMonth: "April",
   },
 ];
