@@ -11,11 +11,15 @@
   display: none;
 }
 .twitter-icon {
-  color: white;
-  font-size: 30px !important;
   margin-top: 12px;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+.logo-class {
+  width: 80px;
+  height: 80px;
+
 }
 
 .sidebar-tweet {

@@ -24,7 +24,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
         <div class="twitter-icon">
-            <img src="" alt="Logo" />
+            <img class= "logo-class" src="https://raw.githubusercontent.com/RuchiraSachinthana/Clone-TW/master/src/assets/logo.png" alt="Logo" />
         </div>
       <Link to="/home" style={{ textDecoration: "none" }}>
         <SidebarItem
