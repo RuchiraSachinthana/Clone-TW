@@ -10,7 +10,7 @@ function Login() {
       <div className="panel">
         <div className="panelHeader">
           <Logo width={39} fill="white" />
-          <span className="panelHeaderText">Login to Twitter</span>
+          <span className="panelHeaderText">Login to Site</span>
         </div>
         <div className="inputs">
           <TextInput text="Phone, email or username" />
@@ -25,7 +25,7 @@ function Login() {
           </a>
           <span className="point">.</span>
           <a href="/signup">
-            <span className="link">Sign up on Twitter</span>
+            <span className="link">Sign up on Site</span>
           </a>
         </div>
       </div>
