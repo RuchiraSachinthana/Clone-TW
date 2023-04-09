@@ -1,13 +1,13 @@
 :root {
-  --main-bg-color: #15202b;
+  --main-bg-color: #FFFFFF;
   --blue: #f822e6;
-  --element-bg-color: #192734;
-  --hover-color: #1c2732;
-  --hover-blue-color: #162d40;
-  --border-color: #38444d;
-  --gray: #8a8ba2;
-  --input-background-color: #253341;
-  --from-message-color: #3d5466;
+  --element-bg-color: #ffffff;
+  --hover-color: #ffffff;
+  --hover-blue-color: #fbcffa;
+  --border-color: rgba(192, 192, 199, 0.84);
+  --gray: rgba(86, 86, 86, 0.84);
+  --input-background-color: #ffffff;
+  --from-message-color: #868787;
 }
 body {
   background-color: var(--main-bg-color);
